@@ -1,6 +1,12 @@
 # Donate
 Donate is a mobile application used for the donation of blood between donors and requester. It has very friendly and easy to use interface to enhance interactivity between users. It has very fast mechanism to request the blood need and get immediate responses from the donors. The system integrates the use of maps and vital information regarding blood requirements for better performance and usability. Moreover, for better understanding the system usability quick navigation options are available within the system. 
 
+Demo
+-
+
+EXPO SNACK LINK
+- https://snack.expo.io/@awaiskazmi/donate
+
 *******************************************************************************************************************
 Important Instructions:
 *******************************************************************************************************************
@@ -76,10 +82,6 @@ Therefore to use the REST functionality use the expo snack (online tool) and cre
 and use the uncommented REST app.js code there.
 Crousel may not work, so remove it from the code.
 Some other functionality may not work on expo snack environment.
-
-EXPO SNACK LINK
-- https://snack.expo.io/@awaiskazmi/donate
-
 
 For the REST api functionality:-
 move the "db.json" file and "axios.js" to some approprite directory
