@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_name": "john123",
+      "name": "John Smith",
+      "blood_group": "A+",
+      "password": "@john123",
+      "mobile_phone_no": "07911-123456",
+      "email": "jhonsmith12@gmail.com",
+      "weight": "80kg",
+      "dob": "02-09-1990",
+      "gender": "Male",
+      "address": "Street 123",
+      "available": false,
+      "requestsCount": 0,
+      "donationsCount": 1,
+      "donations": [
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "user_name": "smith123",
+      "name": "Micheal Smith",
+      "blood_group": "A+",
+      "password": "@smith123",
+      "mobile_phone_no": "07911-123456",
+      "email": "jhonsmith12@gmail.com",
+      "weight": "80kg",
+      "dob": "02-09-1990",
+      "gender": "Male",
+      "address": "Street 123",
+      "available": true,
+      "requestsCount": 0,
+      "donationsCount": 0,
+      "donations": []
+    },
+    {
+      "id": 3,
+      "user_name": "ali123",
+      "name": "Ali Smith",
+      "blood_group": "A+",
+      "password": "@amith123",
+      "mobile_phone_no": "07911-123456",
+      "email": "jhonsmith12@gmail.com",
+      "weight": "80kg",
+      "dob": "02-09-1990",
+      "gender": "Male",
+      "address": "Street 123",
+      "available": true,
+      "requestsCount": 0,
+      "donationsCount": 0,
+      "donations": []
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "req_id": 1,
+      "name": "Jhonson",
+      "blood_group": "A+",
+      "amount_required": "2 litre",
+      "needed_within": "30 minutes",
+      "level": "Critical",
+      "location": "New Street, London",
+      "contact": "7911-123456",
+      "responses": []
+    },
+    {
+      "id": 2,
+      "req_id": 2,
+      "name": "Marie",
+      "blood_group": "B+",
+      "amount_required": "3 litre",
+      "needed_within": "2 hours",
+      "level": "Normal",
+      "location": "New Street, London",
+      "contact": "7911-654321",
+      "responses": []
+    },
+    {
+      "id": 3,
+      "req_id": 3,
+      "name": "Julia",
+      "blood_group": "O+",
+      "amount_required": "3 litre",
+      "needed_within": "30 minutes",
+      "level": "Critical",
+      "location": "New Street, London",
+      "contact": "7911-123321",
+      "responses": []
+    }
+  ],
+  "acceptedRequests": [
+    {
+      "id": 4,
+      "req_id": 4,
+      "name": "john123",
+      "blood_group": "O+",
+      "amount_required": "3 litre",
+      "needed_within": "30 minutes",
+      "level": "Critical",
+      "location": "New Street, London",
+      "contact": "7911-123321",
+      "responses": [
+        "john123"
+      ]
+    }
+  ]
+}
